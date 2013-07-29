@@ -860,6 +860,11 @@ li{
 p {text-align: justify;}
 p.logo img {
   margin-bottom: 18px;
-
 }
 
+  margin-top: 10px;
+}
+h1.h2.entry-title {
+  padding-left: 20px;
+  padding-bottom: 40px;
+ }
