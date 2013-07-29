@@ -8,11 +8,12 @@ gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git', :requi
 #gem "foreman"             # this is a tool to test and use the Procfile locally
 #gem "heroku"              # if you install the Heroku Toolbelt you won't need this but it's good practice
 
-#group :development, :test do
+
+group :development, :test do
   gem 'sqlite3'
+end
 
-
-#group :production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
-#end
+end
